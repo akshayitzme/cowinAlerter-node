@@ -1,6 +1,7 @@
 # CowinAlerter-Node 
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge) 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/akshayitzme/cowinAlerter-node?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/akshayitzme/cowinAlerter-node?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/akshayitzme/cowinAlerter-node?style=for-the-badge)
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/akshayitzme/cowinAlerter-node)
