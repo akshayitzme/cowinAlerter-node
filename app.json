@@ -2,5 +2,6 @@
   "name": "cowinalerter-node",
   "description": "Cowin Slot Alerter",
   "repository": "https://github.com/akshayitzme/cowinAlerter-node",
+  "logo": "https://www.smartwings.com/images/covid/rouska-covid.png",
   "keywords": ["node", "express", "cowin", "covid"]
 }
