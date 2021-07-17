@@ -1,0 +1,19 @@
+{
+    "users":[
+        {
+            "name": "UserWithDistrictCode",
+            "districtCode":303,
+            "districtName":"Thrissur",
+            "dose": "first",
+            "ageGroup": 40,
+            "chatId": 999999
+        },
+        {
+            "name": "UserWithPinCode",
+            "pinCode":666666,
+            "dose": "first",
+            "ageGroup": 40,
+            "chatId": 999999
+        } 
+    ]
+}
