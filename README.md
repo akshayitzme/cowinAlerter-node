@@ -1,5 +1,7 @@
 # CowinAlerter-Node <img align="right" alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/akshayitzme/cowinAlerter-node?style=for-the-badge">
 
+<img src="https://i0.wp.com/www.platformafrica.com/wp-content/uploads/2021/03/c2.png?fit=1800%2C550&ssl=1" alt="covid banner"/>
+
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge) 
 ![GitHub top language](https://img.shields.io/github/languages/top/akshayitzme/cowinAlerter-node?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/akshayitzme/cowinAlerter-node?style=for-the-badge)
