@@ -44,3 +44,6 @@ Automatically checks for available slots every 15 seconds, sends Alerts via Tele
 
 ## References
 [APISetu](https://apisetu.gov.in/public/marketplace/api/cowin#/)
+
+## Licence
+![GitHub](https://img.shields.io/github/license/akshayitzme/cowinAlerter-node?style=for-the-badge)
