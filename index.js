@@ -9,7 +9,7 @@ const app = express()
 app.set('port', (process.env.PORT || 5000))
 
 app.get('/', function(request, response) {
-  response.sendFile(path.join(__dirname, 'HTML/index.html'));
+  response.send(`<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Cowin Alerter V3</title></head><body> <center> <h1> Cowin Alerter V3 </h1> <p> Author: @akshayitzme </p> </center></body></html>`)
 
 })
 
