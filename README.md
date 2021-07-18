@@ -22,6 +22,7 @@ Automatically checks for available slots every 15 seconds, sends Alerts via Tele
 
 - Fork this Repository
 - Add Users in *[Users.json](/Database/Users.json)*
+	refer this [gist](https://gist.github.com/akshayitzme/57f4c1cba4d3a22f4f2e145b94a225e1)
 - Connect Forked GitHub repo to Heroku.
 - Set Telegram Bot Id in Heroku Config Vars. *[see guide](https://devcenter.heroku.com/articles/config-vars)* also see *[env.example](env.example)*
 - Add NodeJs Buildpack.
@@ -30,6 +31,7 @@ Automatically checks for available slots every 15 seconds, sends Alerts via Tele
 ### LocalHost 
 - Clone this Repository
 - Add Users in *[Users.json](/Database/Users.json)*
+	refer this [gist](https://gist.github.com/akshayitzme/57f4c1cba4d3a22f4f2e145b94a225e1)
 - Set Telegram Bot Id in `.env` file.  see *[env.example](env.example)*
 - Install Dependencies
 	 `yarn install`  or  `npm i`
