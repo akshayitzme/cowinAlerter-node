@@ -62,13 +62,14 @@ const handleDisSlots = (data) => {
           // Second Dose
           if (
             parseInt(session["available_capacity_dose2"]) > 0 &&
-            user["dose"] == "second"
+            user["dose"] == "second" &&
+            session["vaccine"] == user["firstVaccine"]
           ) {
             // All Age
             if (session["allow_all_age"] == true) {
               let fee =
                 center["fee_type"] == "Paid" ? "💵 Fee: Paid" : "💵 Fee: Free";
-              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: First\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
+              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: Second\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
 
               await send(msg, user["chatId"]);
             }
@@ -81,7 +82,7 @@ const handleDisSlots = (data) => {
             ) {
               let fee =
                 center["fee_type"] == "Paid" ? "💵 Fee: Paid" : "💵 Fee: Free";
-              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: First\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
+              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: Second\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
 
               await send(msg, user["chatId"]);
             }
@@ -93,7 +94,7 @@ const handleDisSlots = (data) => {
             ) {
               let fee =
                 center["fee_type"] == "Paid" ? "💵 Fee: Paid" : "💵 Fee: Free";
-              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: First\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
+              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: Second\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
 
               await send(msg, user["chatId"]);
             }
@@ -105,7 +106,7 @@ const handleDisSlots = (data) => {
             ) {
               let fee =
                 center["fee_type"] == "Paid" ? "💵 Fee: Paid" : "💵 Fee: Free";
-              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: First\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
+              let msg = `Slot Available for <b>${user["name"]}</b>\n\n🏠 Venue: ${center["name"]}\n\n🗓️ Date: <b>${session["date"]}</b>\n\n🔢 Available Doses: ${session["available_capacity_dose2"]}\n\n${fee}\n\n💉 Vaccine: ${session["vaccine"]}\n\n💊 Dose: Second\n\n⏰ Slots: ${session["slots"]}\n\n📍 Address: ${center["address"]}`;
 
               await send(msg, user["chatId"]);
             }

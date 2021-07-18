@@ -2,18 +2,26 @@
     "users":[
         {
             "name": "UserWithDistrictCode",
-            "districtCode":303,
+            "districtCode":363,
             "districtName":"Thrissur",
             "dose": "first",
-            "ageGroup": 40,
-            "chatId": 999999
+            "ageGroup": 45,
+            "chatId": 99999
         },
         {
             "name": "UserWithPinCode",
-            "pinCode":666666,
+            "pinCode":403110,
             "dose": "first",
             "ageGroup": 40,
-            "chatId": 999999
+            "chatId": 99999
+        },
+        {
+            "name": "SecondDoseUserWithPinCode",
+            "pinCode":403110,
+            "dose": "second",
+            "firstVaccine": "COVISHIELD",
+            "ageGroup": 18,
+            "chatId": 99999
         } 
     ]
 }
